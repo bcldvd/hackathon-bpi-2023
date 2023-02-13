@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PersonaService } from 'src/app/shared/services/persona.service';
 
 @Component({
   selector: 'app-home-bpi',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-bpi.component.scss']
 })
 export class HomeBpiComponent {
+
+  constructor(public personaService: PersonaService) {
+    this.personaService.setBPI()
+  }
 
 }

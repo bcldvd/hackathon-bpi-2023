@@ -1,25 +1,27 @@
-<h1 class="flex justify-between pt-3 px-3 pb-4 items-center bg-white" [ngClass]="{isBPI: 'isBPI'}">
-    <ng-container *ngIf="!isBPI">
-        <img src="./assets/logo-bpi-b2c.png" alt="logo bpi france" class="logo-bpi">
-    </ng-container>
-    <ng-container *ngIf="isBPI">
-        <img src="./assets/logo-bpi-b2b.png" alt="logo bpi france" class="logo-bpi">
-    </ng-container>
-    <div>
-        <!-- <h3 class="flex items-center text-center" *ngIf="titleService.title$ | async as title">
-        <mat-icon>{{title.icon}}</mat-icon>
-        &nbsp;
-        {{title.name}}
-      </h3> -->
-    </div>
-    <div class="flex space-x-2">
-        <div class="relative w-10 h-10 mr-4">
-            <a routerLink="/profile">
-                <img [src]="user.picture" alt="Profile picture" class="rounded-full shadow">
-            </a>
+<ng-container *ngIf="personaService.current$ | async as persona">
+    <h1 class="flex justify-between pt-3 px-3 pb-4 items-center bg-white" [ngClass]="{'isBPI': persona === Personas.BPI}">
+        <ng-container *ngIf="persona === Personas.BORROWER">
+            <img src="./assets/logo-bpi-b2c.png" alt="logo bpi france" class="logo-bpi">
+        </ng-container>
+        <ng-container *ngIf="persona === Personas.BPI">
+            <img src="./assets/logo-bpi-b2b.png" alt="logo bpi france" class="logo-bpi">
+        </ng-container>
+        <div>
+            <!-- <h3 class="flex items-center text-center" *ngIf="titleService.title$ | async as title">
+            <mat-icon>{{title.icon}}</mat-icon>
+            &nbsp;
+            {{title.name}}
+          </h3> -->
         </div>
-    </div>
-</h1>
+        <div class="flex space-x-2">
+            <div class="relative w-10 h-10 mr-4">
+                <a routerLink="/profile">
+                    <img [src]="user.picture" alt="Profile picture" class="rounded-full shadow">
+                </a>
+            </div>
+        </div>
+    </h1>
+</ng-container>
 
 <hr />
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Personas, PersonaService } from './shared/services/persona.service';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'kiko';
+  Personas = Personas;
 
-  isBPI = false;
+  constructor(public personaService: PersonaService) {}
 
   user = {
     picture: 'https://pbs.twimg.com/profile_images/1550535324501164032/0lTW_4tj_400x400.jpg'
