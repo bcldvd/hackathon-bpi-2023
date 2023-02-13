@@ -1,0 +1,9 @@
+@use "./variables" as variables;
+
+h1 {
+    max-height: variables.$navbar_height;
+}
+
+.logo-bpi {
+    max-height: calc(variables.$navbar_height - 14px);
+}
