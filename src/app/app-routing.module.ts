@@ -7,6 +7,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('@features/home/home.module').then((m) => m.HomeModule),
   },
+  {
+    path: 'home-bpi',
+    loadChildren: () =>
+      import('@features/home-bpi/home-bpi.module').then((m) => m.HomeBpiModule),
+  },
 ];
 
 @NgModule({

@@ -2,6 +2,10 @@
 
 h1 {
     max-height: variables.$navbar_height;
+
+    &.isBPI {
+        background: #FFCD00;
+    }
 }
 
 .logo-bpi {
