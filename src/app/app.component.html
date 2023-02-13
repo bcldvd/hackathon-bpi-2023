@@ -1,28 +1,77 @@
 <ng-container *ngIf="personaService.current$ | async as persona">
-    <h1 class="flex justify-between pt-3 px-3 pb-4 items-center bg-white" [ngClass]="{'isBPI': persona === Personas.BPI}">
-        <ng-container *ngIf="persona === Personas.BORROWER">
-            <img src="./assets/logo-bpi-b2c.png" alt="logo bpi france" class="logo-bpi">
-        </ng-container>
-        <ng-container *ngIf="persona === Personas.BPI">
-            <img src="./assets/logo-bpi-b2b.png" alt="logo bpi france" class="logo-bpi">
-        </ng-container>
-        <div>
-            <!-- <h3 class="flex items-center text-center" *ngIf="titleService.title$ | async as title">
-            <mat-icon>{{title.icon}}</mat-icon>
-            &nbsp;
-            {{title.name}}
-          </h3> -->
-        </div>
-        <div class="flex space-x-2">
-            <div class="relative w-10 h-10 mr-4">
-                <a routerLink="/profile">
-                    <img [src]="user.picture" alt="Profile picture" class="rounded-full shadow">
-                </a>
+    <div class="min-h-full">
+        <nav class="bg-white shadow-sm" [ngClass]="{'bg-[#ffcd00]': persona === Personas.BPI}">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex h-16 justify-between">
+                    <div class="flex">
+                        <div class="flex flex-shrink-0 items-center">
+                            <ng-container *ngIf="persona === Personas.BORROWER">
+                                <img src="./assets/logo-bpi-b2c.png" alt="logo bpi france" class="h-10 w-auto">
+                            </ng-container>
+                            <ng-container *ngIf="persona === Personas.BPI">
+                                <img src="./assets/logo-bpi-b2b.png" alt="logo bpi france" class="h-10 w-auto">
+                            </ng-container>
+                        </div>
+                        <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+                            <a href="#"
+                                class="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                aria-current="page">Dashboard</a>
+                        </div>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:flex sm:items-center">
+
+                        <!-- Profile dropdown -->
+                        <div class="relative ml-3">
+                            <div>
+                                <button type="button"
+                                    class="flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                    id="user-menu-button" aria-expanded="false" aria-haspopup="true"
+                                    (click)="navigateToBpi()">
+                                    <span class="sr-only">Open user menu</span>
+                                    <img class="h-10 w-10 rounded-full" [src]="user.picture" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-mr-2 flex items-center sm:hidden">
+                        <!-- Mobile menu button -->
+                        <button type="button"
+                            class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
+
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="sm:hidden" id="mobile-menu">
+                <div class="border-t border-gray-200 pt-4 pb-3">
+                    <div class="flex items-center px-4">
+                        <div class="flex-shrink-0">
+                            <img class="h-10 w-10 rounded-full" [src]="user.picture" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="py-10">
+            <main>
+                <router-outlet></router-outlet>
+            </main>
         </div>
-    </h1>
+    </div>
+
 </ng-container>
-
-<hr />
-
-<router-outlet></router-outlet>
