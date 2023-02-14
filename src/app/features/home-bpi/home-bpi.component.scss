@@ -3,3 +3,17 @@
   max-height: 340px;
   margin: auto;
 }
+
+::ng-deep {
+  &.red-cell {
+    color: #ED122E !important;
+  }
+
+  &.orange-cell {
+    color: orange !important;
+  }
+
+  &.green-cell {
+    color: #00B785 !important;
+  }
+}

@@ -39,6 +39,26 @@ export class HomeBpiComponent {
     { field: "montant du prêt" },
     { field: "consommation (GWh/an)" },
     { field: "impact (tCO2)" },
+    {
+      field: "prix de la tonne de CO2",
+      cellClass: function (params) {
+        const value = parseInt(params.value);
+        if (value >= 800) return 'red-cell';
+        if (value >= 500 && value < 800) return 'orange-cell';
+        if (value < 500) return 'green-cell';
+        return '';
+        // return 'red-cell'
+        // if (value >= 800) {
+        //   return 'red-cell';
+        // }
+        // else if (value >= 500) {
+        //   return 'orange-cell';
+        // }
+        // else (value < 500) {
+        //   return 'green-cell';
+        // }
+      }
+    },
     { field: "taux de base" },
     { field: "discount" }
   ];
