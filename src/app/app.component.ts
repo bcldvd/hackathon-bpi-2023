@@ -13,8 +13,12 @@ export class AppComponent {
   constructor(public personaService: PersonaService, private router: Router) {}
 
   user = {
-    picture:
-      'https://pbs.twimg.com/profile_images/1550535324501164032/0lTW_4tj_400x400.jpg',
+    picture: {
+      [Personas.BORROWER]:
+        'https://pbs.twimg.com/profile_images/1550535324501164032/0lTW_4tj_400x400.jpg',
+      [Personas.BPI]:
+        'https://www.bpifrance.fr/sites/default/files/styles/medium/public/2022-01/ANNE%20GUERIN.jpg.webp?itok=JAqoT0yX',
+    },
   };
 
   navigateToBpi() {
