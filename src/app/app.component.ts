@@ -21,6 +21,11 @@ export class AppComponent {
     },
   };
 
+  title = {
+    [Personas.BORROWER]: 'Collection de données',
+    [Personas.BPI]: 'Tableau de bord',
+  };
+
   navigateToBpi() {
     this.router.navigate(['home-bpi']);
   }
