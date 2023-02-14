@@ -8,3 +8,20 @@
   height: 500px;
   top: 300px;
 }
+
+.appear-after {
+  opacity: 0;
+  animation: appearAfter 5s forwards;
+}
+
+@keyframes appearAfter {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

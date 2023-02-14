@@ -14,15 +14,21 @@ export class AppComponent {
 
   user = {
     picture: {
-      [Personas.BORROWER]:
-        'https://pbs.twimg.com/profile_images/1550535324501164032/0lTW_4tj_400x400.jpg',
-      [Personas.BPI]:
-        'https://www.bpifrance.fr/sites/default/files/styles/medium/public/2022-01/ANNE%20GUERIN.jpg.webp?itok=JAqoT0yX',
+      [Personas.BORROWER]: './assets/christian.jpeg',
+      [Personas.BPI]: './assets/anne.jpg',
+    },
+    companyPicture: {
+      [Personas.BORROWER]: './assets/immoconfort.jpg',
+      [Personas.BPI]: '',
+    },
+    name: {
+      [Personas.BORROWER]: 'Christian',
+      [Personas.BPI]: 'Anne',
     },
   };
 
   title = {
-    [Personas.BORROWER]: 'Collection de données',
+    [Personas.BORROWER]: 'Mon prêt',
     [Personas.BPI]: 'Tableau de bord',
   };
 

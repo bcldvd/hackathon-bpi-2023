@@ -24,12 +24,45 @@
                         <div class="relative ml-3">
                             <div>
                                 <button type="button"
-                                    class="flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 ring-1 ring-slate-400"
+                                    class="flex rounded-full text-sm focus:outline-none focus:ring-offset-2 ring-slate-400"
                                     id="user-menu-button" aria-expanded="false" aria-haspopup="true"
                                     (click)="navigateToBpi()">
-                                    <span class="sr-only">Open user menu</span>
-                                    <img class="h-10 w-10 rounded-full" [src]="user.picture[persona]" alt="">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <img class="inline-block h-10 w-10 rounded-full ring-1"
+                                                [src]="user.picture[persona]" alt="">
+                                        </div>
+                                        <div class="ml-3" *ngIf="persona === Personas.BORROWER">
+                                            <p class="text-sm font-medium text-gray-700 group-hover:text-gray-900">
+                                                {{user.name[persona]}}
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                    stroke-width="1.5" stroke="currentColor"
+                                                    class="w- h-6 inline-block">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                                </svg>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </button>
+                            </div>
+                        </div>
+                        <div class="ml-10" *ngIf="persona === Personas.BORROWER">
+                            <div class="flex items-center">
+                                <div>
+                                    <img [src]="user.companyPicture[persona]" alt="company picture"
+                                        class="h-10 w-auto inline-block">
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-700 group-hover:text-gray-900">
+                                        IMMO Confort
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w- h-6 inline-block">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,7 +93,7 @@
                 <div class="border-t border-gray-200 pt-4 pb-3">
                     <div class="flex items-center px-4">
                         <div class="flex-shrink-0">
-                            <img class="h-10 w-10 rounded-full" [src]="user.picture" alt="">
+                            <img class="h-10 w-10 rounded-full" [src]="user.picture[persona]" alt="">
                         </div>
                     </div>
                 </div>
