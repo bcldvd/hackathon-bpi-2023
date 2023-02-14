@@ -47,16 +47,6 @@ export class HomeBpiComponent {
         if (value >= 500 && value < 800) return 'orange-cell';
         if (value < 500) return 'green-cell';
         return '';
-        // return 'red-cell'
-        // if (value >= 800) {
-        //   return 'red-cell';
-        // }
-        // else if (value >= 500) {
-        //   return 'orange-cell';
-        // }
-        // else (value < 500) {
-        //   return 'green-cell';
-        // }
       }
     },
     { field: "taux de base" },
@@ -218,9 +208,7 @@ export class HomeBpiComponent {
   }
 
   // Example of consuming Grid Event
-  onCellClicked(e: CellClickedEvent): void {
-    console.log('cellClicked', e);
-  }
+  onCellClicked(e: CellClickedEvent): void { }
 
   // Example using Grid's API
   clearSelection(): void {
