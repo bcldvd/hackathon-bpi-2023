@@ -12,6 +12,7 @@ export class HomeComponent {
   currentLoan = {
     nominal: 500000,
     goal: -30,
+    wattGoal: -531,
     rate: 4.2,
     discount: 0.7,
   };
