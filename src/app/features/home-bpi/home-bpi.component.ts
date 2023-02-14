@@ -38,7 +38,7 @@ export class HomeBpiComponent {
     { field: "secteur d'activité" },
     { field: "montant du prêt" },
     { field: "consommation (GWh/an)" },
-    { field: "réalisation (tCO2)" },
+    { field: "impact (tCO2)" },
     { field: "taux de base" },
     { field: "discount" }
   ];
@@ -170,23 +170,6 @@ export class HomeBpiComponent {
     }
   }
 
-  public generateData(count: any, yrange: any) {
-    var i = 0;
-    var series = [];
-    while (i < count) {
-      var x = "w" + (i + 1).toString();
-      var y =
-        Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
-
-      series.push({
-        x: x,
-        y: y
-      });
-      i++;
-    }
-    return series;
-  }
-
   // Example load data from sever
   onGridReady(params: GridReadyEvent) {
     this.rowData$ = this.http.get<any[]>('assets/json/greenloans.json');
@@ -204,7 +187,7 @@ export class HomeBpiComponent {
   }
 
   computeReducedCO2(data: any) {
-    return Math.round(data.map((item: any) => Number.parseFloat(item["réalisation (tCO2)"])).reduce((pSum: any, a: any) => pSum + a, 0.0));
+    return Math.round(data.map((item: any) => Number.parseFloat(item["impact (tCO2)"])).reduce((pSum: any, a: any) => pSum + a, 0.0));
   }
 
   // SUM(conso energie reference(GWh))-SUM(consommation (GWh))
