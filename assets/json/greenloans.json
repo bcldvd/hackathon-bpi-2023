@@ -5,20 +5,20 @@
     "ville": "Paris",
     "région": "Ile de France",
     "date de l'emprunt": "07/01/2020",
-    "durée": 7,
+    "durée": "7",
     "date de fin": "07/01/2027",
-    "montant du prêt": "500 000.00€",
+    "montant du prêt": "500000.00",
     "taux de base": "4.40%",
     "discount": "0.36%",
     "taux bonifié": "4.04%",
     "conso energie reference(GWh)": "1.28",
-    "bilan carbonne (tCO2)": 128,
+    "bilan carbonne (tCO2)": "128",
     "objectif (GWh/an)": "0.512",
     "objectif (tCO2/an)": "51.2",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.64",
-    "impact (tCO2)": 64,
-    "prix de la tonne de CO2": "289.35€"
+    "impact (tCO2)": "64",
+    "prix de la tonne de CO2": "289.35"
   },
   {
     "emprunteur": "Le Papillon Doré",
@@ -26,20 +26,20 @@
     "ville": "Bordeaux",
     "région": "Nouvelle Aquitaine",
     "date de l'emprunt": "14/06/2021",
-    "durée": 5,
+    "durée": "5",
     "date de fin": "17/06/2026",
-    "montant du prêt": "600 000.00€",
+    "montant du prêt": "600000.00",
     "taux de base": "4.20%",
     "discount": "0.43%",
     "taux bonifié": "3.77%",
     "conso energie reference(GWh)": "0.56",
-    "bilan carbonne (tCO2)": 56,
+    "bilan carbonne (tCO2)": "56",
     "objectif (GWh/an)": "0.224",
     "objectif (tCO2/an)": "22.4",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.28",
-    "impact (tCO2)": 28,
-    "prix de la tonne de CO2": "793.65€"
+    "impact (tCO2)": "28",
+    "prix de la tonne de CO2": "793.65"
   },
   {
     "emprunteur": "Terra Incognita",
@@ -47,20 +47,20 @@
     "ville": "Caen",
     "région": "Normandie",
     "date de l'emprunt": "14/02/2023",
-    "durée": 10,
+    "durée": "10",
     "date de fin": "16/02/2033",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.31%",
     "taux bonifié": "4.49%",
     "conso energie reference(GWh)": "1.04",
-    "bilan carbonne (tCO2)": 104,
+    "bilan carbonne (tCO2)": "104",
     "objectif (GWh/an)": "0.416",
     "objectif (tCO2/an)": "41.6",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.52",
-    "impact (tCO2)": 52,
-    "prix de la tonne de CO2": "569.80€"
+    "impact (tCO2)": "52",
+    "prix de la tonne de CO2": "569.80"
   },
   {
     "emprunteur": "Résidences d'Exception",
@@ -68,9 +68,9 @@
     "ville": "Beauvais",
     "région": "Picardie",
     "date de l'emprunt": "07/01/2020",
-    "durée": 8,
+    "durée": "8",
     "date de fin": "07/01/2028",
-    "montant du prêt": "1 000 000.00€",
+    "montant du prêt": "1000000.00",
     "taux de base": "4.20%",
     "discount": "0.37%",
     "taux bonifié": "3.83%",
@@ -81,7 +81,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "1.008",
     "impact (tCO2)": "100.8",
-    "prix de la tonne de CO2": "367.43€"
+    "prix de la tonne de CO2": "367.43"
   },
   {
     "emprunteur": "La Rose des Vents",
@@ -91,7 +91,7 @@
     "date de l'emprunt": "14/06/2021",
     "durée": 7,
     "date de fin": "14/06/2028",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.40%",
     "discount": "0.28%",
     "taux bonifié": "4.12%",
@@ -102,7 +102,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.221",
     "impact (tCO2)": "22.1",
-    "prix de la tonne de CO2": "1340.71€"
+    "prix de la tonne de CO2": "1340.71"
   },
   {
     "emprunteur": "Le Dragon Rouge",
@@ -112,18 +112,18 @@
     "date de l'emprunt": "14/02/2023",
     "durée": 10,
     "date de fin": "14/02/2033",
-    "montant du prêt": "600 000.00€",
+    "montant du prêt": "600000.00",
     "taux de base": "4.80%",
     "discount": "0.46%",
     "taux bonifié": "4.34%",
     "conso energie reference(GWh)": "0.8",
-    "bilan carbonne (tCO2)": 80,
+    "bilan carbonne (tCO2)": "80",
     "objectif (GWh/an)": "0.32",
-    "objectif (tCO2/an)": 32,
+    "objectif (tCO2/an)": "32",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.4",
-    "impact (tCO2)": 40,
-    "prix de la tonne de CO2": "555.56€"
+    "impact (tCO2)": "40",
+    "prix de la tonne de CO2": "555.56"
   },
   {
     "emprunteur": "NormandyLogistics",
@@ -131,9 +131,9 @@
     "ville": "Saint Denis",
     "région": "Ile de France",
     "date de l'emprunt": "07/01/2020",
-    "durée": 10,
+    "durée": "10",
     "date de fin": "07/01/2030",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.26%",
     "taux bonifié": "4.54%",
@@ -144,7 +144,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.364",
     "impact (tCO2)": "36.4",
-    "prix de la tonne de CO2": "814.00€"
+    "prix de la tonne de CO2": "814.00"
   },
   {
     "emprunteur": "Alpha Propriétés",
@@ -154,7 +154,7 @@
     "date de l'emprunt": "14/06/2021",
     "durée": 6,
     "date de fin": "14/06/2027",
-    "montant du prêt": "1 000 000.00€",
+    "montant du prêt": "1000000.00",
     "taux de base": "4.20%",
     "discount": "0.39%",
     "taux bonifié": "3.81%",
@@ -165,7 +165,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.448",
     "impact (tCO2)": "44.8",
-    "prix de la tonne de CO2": "826.72€"
+    "prix de la tonne de CO2": "826.72"
   },
   {
     "emprunteur": "InvestiHabitat",
@@ -175,18 +175,18 @@
     "date de l'emprunt": "14/02/2023",
     "durée": 10,
     "date de fin": "14/02/2033",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.36%",
     "taux bonifié": "4.44%",
     "conso energie reference(GWh)": "1.28",
-    "bilan carbonne (tCO2)": 128,
+    "bilan carbonne (tCO2)": "128",
     "objectif (GWh/an)": "0.512",
     "objectif (tCO2/an)": "51.2",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.64",
-    "impact (tCO2)": 64,
-    "prix de la tonne de CO2": "462.96€"
+    "impact (tCO2)": "64",
+    "prix de la tonne de CO2": "462.96"
   },
   {
     "emprunteur": "Translogik",
@@ -196,18 +196,18 @@
     "date de l'emprunt": "07/01/2020",
     "durée": 7,
     "date de fin": "07/01/2027",
-    "montant du prêt": "1 000 000.00€",
+    "montant du prêt": "1000000.00",
     "taux de base": "4.40%",
     "discount": "0.36%",
     "taux bonifié": "4.04%",
     "conso energie reference(GWh)": "2.56",
-    "bilan carbonne (tCO2)": 256,
+    "bilan carbonne (tCO2)": "256",
     "objectif (GWh/an)": "1.024",
     "objectif (tCO2/an)": "102.4",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "1.28",
-    "impact (tCO2)": 128,
-    "prix de la tonne de CO2": "289.35€"
+    "impact (tCO2)": "128",
+    "prix de la tonne de CO2": "289.35"
   },
   {
     "emprunteur": "Hôtel Luxuria",
@@ -217,18 +217,18 @@
     "date de l'emprunt": "14/06/2021",
     "durée": 5,
     "date de fin": "17/06/2026",
-    "montant du prêt": "600 000.00€",
+    "montant du prêt": "600000.00",
     "taux de base": "4.20%",
     "discount": "0.43%",
     "taux bonifié": "3.77%",
     "conso energie reference(GWh)": "0.56",
-    "bilan carbonne (tCO2)": 56,
+    "bilan carbonne (tCO2)": "56",
     "objectif (GWh/an)": "0.224",
     "objectif (tCO2/an)": "22.4",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.28",
-    "impact (tCO2)": 28,
-    "prix de la tonne de CO2": "793.65€"
+    "impact (tCO2)": "28",
+    "prix de la tonne de CO2": "793.65"
   },
   {
     "emprunteur": "Olympe Commercial Realty",
@@ -238,18 +238,18 @@
     "date de l'emprunt": "14/02/2023",
     "durée": 10,
     "date de fin": "16/02/2033",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.31%",
     "taux bonifié": "4.49%",
     "conso energie reference(GWh)": "1.04",
-    "bilan carbonne (tCO2)": 104,
+    "bilan carbonne (tCO2)": "104",
     "objectif (GWh/an)": "0.416",
     "objectif (tCO2/an)": "41.6",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.52",
-    "impact (tCO2)": 52,
-    "prix de la tonne de CO2": "569.80€"
+    "impact (tCO2)": "52",
+    "prix de la tonne de CO2": "569.80"
   },
   {
     "emprunteur": "Résidences d'Exception",
@@ -259,7 +259,7 @@
     "date de l'emprunt": "07/01/2020",
     "durée": 8,
     "date de fin": "07/01/2028",
-    "montant du prêt": "1 000 000.00€",
+    "montant du prêt": "1000000.00",
     "taux de base": "4.20%",
     "discount": "0.37%",
     "taux bonifié": "3.83%",
@@ -270,7 +270,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "1.008",
     "impact (tCO2)": "100.8",
-    "prix de la tonne de CO2": "367.43€"
+    "prix de la tonne de CO2": "367.43"
   },
   {
     "emprunteur": "Hôtel Azuréen",
@@ -280,7 +280,7 @@
     "date de l'emprunt": "14/06/2021",
     "durée": 7,
     "date de fin": "14/06/2028",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.40%",
     "discount": "0.28%",
     "taux bonifié": "4.12%",
@@ -291,7 +291,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.221",
     "impact (tCO2)": "22.1",
-    "prix de la tonne de CO2": "1340.71€"
+    "prix de la tonne de CO2": "1340.71"
   },
   {
     "emprunteur": "Auberge Basque",
@@ -301,18 +301,18 @@
     "date de l'emprunt": "14/02/2023",
     "durée": 10,
     "date de fin": "14/02/2033",
-    "montant du prêt": "600 000.00€",
+    "montant du prêt": "600000.00",
     "taux de base": "4.80%",
     "discount": "0.46%",
     "taux bonifié": "4.34%",
     "conso energie reference(GWh)": "0.8",
     "bilan carbonne (tCO2)": 80,
     "objectif (GWh/an)": "0.32",
-    "objectif (tCO2/an)": 32,
+    "objectif (tCO2/an)": "32",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.4",
-    "impact (tCO2)": 40,
-    "prix de la tonne de CO2": "555.56€"
+    "impact (tCO2)": "40",
+    "prix de la tonne de CO2": "555.56"
   },
   {
     "emprunteur": "Freightwayz",
@@ -322,7 +322,7 @@
     "date de l'emprunt": "07/01/2020",
     "durée": 10,
     "date de fin": "07/01/2030",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.26%",
     "taux bonifié": "4.54%",
@@ -333,7 +333,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.364",
     "impact (tCO2)": "36.4",
-    "prix de la tonne de CO2": "814.00€"
+    "prix de la tonne de CO2": "814.00"
   },
   {
     "emprunteur": "Altitude Solutions Immobilières",
@@ -343,7 +343,7 @@
     "date de l'emprunt": "14/06/2021",
     "durée": 6,
     "date de fin": "14/06/2027",
-    "montant du prêt": "1 000 000.00€",
+    "montant du prêt": "1000000.00",
     "taux de base": "4.20%",
     "discount": "0.39%",
     "taux bonifié": "3.81%",
@@ -354,7 +354,7 @@
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.448",
     "impact (tCO2)": "44.8",
-    "prix de la tonne de CO2": "826.72€"
+    "prix de la tonne de CO2": "826.72"
   },
   {
     "emprunteur": "Nexus Properties",
@@ -364,18 +364,18 @@
     "date de l'emprunt": "14/02/2023",
     "durée": 10,
     "date de fin": "14/02/2033",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.36%",
     "taux bonifié": "4.44%",
     "conso energie reference(GWh)": "1.28",
-    "bilan carbonne (tCO2)": 128,
+    "bilan carbonne (tCO2)": "128",
     "objectif (GWh/an)": "0.512",
     "objectif (tCO2/an)": "51.2",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.64",
-    "impact (tCO2)": 64,
-    "prix de la tonne de CO2": "462.96€"
+    "impact (tCO2)": "64",
+    "prix de la tonne de CO2": "462.96"
   },
   {
     "emprunteur": "Apex Commercial",
@@ -385,17 +385,17 @@
     "date de l'emprunt": "14/02/2023",
     "durée": 10,
     "date de fin": "14/02/2033",
-    "montant du prêt": "800 000.00€",
+    "montant du prêt": "800000.00",
     "taux de base": "4.80%",
     "discount": "0.32%",
     "taux bonifié": "4.48%",
     "conso energie reference(GWh)": "1.28",
-    "bilan carbonne (tCO2)": 128,
+    "bilan carbonne (tCO2)": "128",
     "objectif (GWh/an)": "0.512",
     "objectif (tCO2/an)": "51.2",
     "dernière date d'observation": "01/01/2023",
     "consommation (GWh/an)": "0.64",
-    "impact (tCO2)": 64,
-    "prix de la tonne de CO2": "462.96€"
+    "impact (tCO2)": "64",
+    "prix de la tonne de CO2": "462.96"
   }
 ]
