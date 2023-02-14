@@ -1,10 +1,10 @@
 <ng-container *ngIf="personaService.current$ | async as persona">
     <div class="min-h-full">
-        <nav class="bg-white shadow-sm" [ngClass]="{'bg-[#ffcd00]': persona === Personas.BPI}">
+        <nav class="bg-white shadow-sm" [ngClass]="{'bpi': persona === Personas.BPI}">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 justify-between">
                     <div class="flex">
-                        <div class="flex flex-shrink-0 items-center">
+                        <div class="flex flex-shrink-0 items-center cursor-pointer" (click)="navigateHome()">
                             <ng-container *ngIf="persona === Personas.BORROWER">
                                 <img src="./assets/logo-bpi-b2c.png" alt="logo bpi france" class="h-10 w-auto">
                             </ng-container>

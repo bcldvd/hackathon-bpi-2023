@@ -2,12 +2,12 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { CarbonMetricModule } from '@cdk/carbon-metric/carbon-metric.module';
-import { CountUpDirective } from 'src/app/shared/directives/count-up.directive';
+import { SharedModule } from 'src/app/shared/shared.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [HomeComponent, CountUpDirective],
-  imports: [CommonModule, HomeRoutingModule, CarbonMetricModule],
+  declarations: [HomeComponent],
+  imports: [CommonModule, HomeRoutingModule, CarbonMetricModule, SharedModule],
 })
 export class HomeModule {}

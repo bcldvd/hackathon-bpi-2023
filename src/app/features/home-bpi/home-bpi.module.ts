@@ -2,21 +2,18 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { AgGridModule } from 'ag-grid-angular';
-import { CountUpDirective } from 'src/app/shared/directives/count-up.directive';
+import { SharedModule } from 'src/app/shared/shared.module';
 import { HomeBpiRoutingModule } from './home-bpi-routing.module';
 import { HomeBpiComponent } from './home-bpi.component';
 
-
 @NgModule({
-  declarations: [
-    HomeBpiComponent,
-    CountUpDirective
-  ],
+  declarations: [HomeBpiComponent],
   imports: [
     CommonModule,
     HomeBpiRoutingModule,
     HttpClientModule,
-    AgGridModule
-  ]
+    AgGridModule,
+    SharedModule,
+  ],
 })
-export class HomeBpiModule { }
+export class HomeBpiModule {}

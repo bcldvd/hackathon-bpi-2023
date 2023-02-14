@@ -20,4 +20,8 @@ export class AppComponent {
   navigateToBpi() {
     this.router.navigate(['home-bpi']);
   }
+
+  navigateHome() {
+    this.router.navigate(['']);
+  }
 }
