@@ -9,7 +9,8 @@ module.exports = {
         'bleu-400': '#0D2F66',
         'bleu-500': '#001D4A',
         'jaune-500': '#FFCD00',
-        'taupe-500': '#54514D'
+        'taupe-500': '#54514D',
+        'vert-500': '#00B785'
       }
     },
   },
