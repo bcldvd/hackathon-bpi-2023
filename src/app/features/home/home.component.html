@@ -15,10 +15,18 @@
     <div class="mx-auto mt-6 mb-14">
         <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
             <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+                <dt class="truncate text-lg font-medium text-gray-500">Montant</dt>
+                <dd class="mt-1 text-4xl font-semibold tracking-tight text-gray-900">
+                    <span>500 000 </span>
+                    <span class="text-xl font-semibold text-gray-900">€</span>
+                </dd>
+            </div>
+
+            <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
                 <dt class="truncate text-lg font-medium text-gray-500">Taux</dt>
                 <dd class="mt-1 text-4xl font-semibold tracking-tight text-gray-900 flex items-baseline">
-                    <span>4.2</span>
-                    <span class="text-xl font-semibold text-gray-900">%</span>
+                    <span>4.2 </span>
+                    <span class="text-xl font-semibold text-gray-900">&nbsp;%</span>
 
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -27,8 +35,8 @@
                     </svg>
 
 
-                    <span class="appear-after">3.9</span>
-                    <span class="text-xl font-semibold text-gray-900 appear-after">%</span>
+                    <span class="appear-after">3.9 </span>
+                    <span class="text-xl font-semibold text-gray-900 appear-after">&nbsp;%</span>
                 </dd>
             </div>
 
@@ -36,15 +44,7 @@
                 <dt class="truncate text-lg font-medium text-gray-500">Objectif à 12 mois</dt>
                 <dd class="mt-1 text-4xl font-semibold tracking-tight text-gray-900">
                     <span [countUp]="currentLoan.goal" [duration]="duration"></span>
-                    <span class="text-xl font-semibold text-gray-900">% de consommation d'énergie</span>
-                </dd>
-            </div>
-
-            <div class="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt class="truncate text-lg font-medium text-gray-500">Montant</dt>
-                <dd class="mt-1 text-4xl font-semibold tracking-tight text-gray-900">
-                    <span>500 000</span>
-                    <span class="text-xl font-semibold text-gray-900">€</span>
+                    <span class="text-xl font-semibold text-gray-900"> % de consommation d'énergie</span>
                 </dd>
             </div>
         </dl>
