@@ -7,10 +7,15 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
   },
+  {
+    path: 'linky',
+    loadChildren: () =>
+      import('@features/home/linky/linky.module').then((m) => m.LinkyModule),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class HomeRoutingModule { }
+export class HomeRoutingModule {}
